@@ -30,7 +30,7 @@ Dashboard 1:
 11.Insights Generation
 
 ## KPIs Requirements
-1. Transactions Performance
+## 1. Transactions Performance
    
 This section focuses on evaluating the overall health and effectiveness of sales operations by tracking:
 
@@ -40,7 +40,7 @@ Total Quantity: The cumulative number of products sold.
 
 Net Avg Order Value: The average revenue per transaction, excluding tax.
 
-3. Customer Purchase Behavior
+## 2. Customer Purchase Behavior
    
 Understanding how customers interact with the business is critical. This section highlights:
 
@@ -50,7 +50,7 @@ Single Order Customers: Customers who placed only one order.
 
 Repeat Customers: Customers with more than one order, indicating loyalty.
 
-5. Retention & Value KPIs
+## 3. Retention & Value KPIs
    
 To evaluate long-term growth and customer value, this section includes:
 
@@ -64,15 +64,15 @@ Purchase Frequency: How often customers place orders, on average.
 
 This section will support dynamic analysis using a measure selector for: Net Sales, Total Quantity, Total Customers, Repeat Customers
 
-1. Regional Overview - Province and Cities
+## 1. Regional Overview - Province and Cities
    
-  Filled Map (Province-Level)
+     Filled Map (Province-Level)
   
     Purpose: Display province-wise performance using color saturation based on the selected measure.
     
     Interactivity: Changes dynamically with the measure selector.
     
-  Bubble Map / Density Map (City Level)
+  ### Bubble Map / Density Map (City Level)
   
        Purpose: Visually represent sales or customer density at a more granular level.
        
@@ -80,7 +80,7 @@ This section will support dynamic analysis using a measure selector for: Net Sal
       
       Tooltip: Shows all key metrics (Net Sales, Quantity, Total Customers, Repeat Customers).
       
-  Bar Chart (City-Level Performance
+  ### Bar Chart (City-Level Performance
   
        Purpose: Compare top-performing cities based on the selected KPI.
        
@@ -88,27 +88,27 @@ This section will support dynamic analysis using a measure selector for: Net Sal
       
       Dynamic: Interacts with slicers/filters and responds to the KPI selector.
    
-3. Sales Trend Over Time
+## 2. Sales Trend Over Time
    
-Area Chart – Trend by Day
+### Area Chart – Trend by Day
 
-Purpose: Show the daily trend of the selected measure (e.g., daily Net Sales or daily Repeat Customers).
+      Purpose: Show the daily trend of the selected measure (e.g., daily Net Sales or daily Repeat Customers).
 
-Interactivity: Changes dynamically based on the selected measure.
+      Interactivity: Changes dynamically based on the selected measure.
 
-Bar Chart or Line Chart – Trend by Hour
+      Bar Chart or Line Chart – Trend by Hour
 
-Purpose: Display sales or customer activity by hour of the day (e.g., 0–23 hrs), revealing peak activity periods.
+      Purpose: Display sales or customer activity by hour of the day (e.g., 0–23 hrs), revealing peak activity periods.
 
-Use Case: Helps understand time-of-day behavior, useful for marketing or operational timing decisions.
+      Use Case: Helps understand time-of-day behavior, useful for marketing or operational timing decisions.
 
-3. Gateway Payment Method
+## 3. Gateway Payment Method
 
 Identify the most and least used payment methods.
 
 Detect customer preferences across regions or campaigns.
 
-5. Product Type
+## 4. Product Type
    
 Determine which product types generate the highest revenue and order volume.
 
